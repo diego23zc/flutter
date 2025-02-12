@@ -5,8 +5,12 @@ class PokemonList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder(
-      color: Colors.blue,
+    return Center(
+      child: Column(
+        children: <Widget>[
+          Text('Texto Pokemon'),
+        ],
+      ),
     );
   }
 }
